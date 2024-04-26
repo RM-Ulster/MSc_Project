@@ -9,7 +9,7 @@ This is the order that they were used:
 
 3. [S1_Image_Prep](https://code.earthengine.google.com/36e5c5ca990211a2b53b49531ba31705)
 
-4. [Extraction]
+4. [Extraction] - Script to stack rasters and extract values at each plot
 
 5. [RF_training]
 
