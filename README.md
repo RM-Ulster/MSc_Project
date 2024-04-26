@@ -2,17 +2,17 @@
 
 ## Data
 
-[Swedish_NFI_plotdata](swe_nfi_plotdata.xlsx) - Master file, downloaded from https://www.slu.se/en/Collaborative-Centres-and-Projects/the-swedish-national-forest-inventory/listor/sample-plot-data/.
+[Swedish_NFI_plotdata](swe_nfi_plotdata.xlsx) - Master file, downloaded from: [Swedish University of Agricultural Sciences (SLU)](https://www.slu.se/en/Collaborative-Centres-and-Projects/the-swedish-national-forest-inventory/listor/sample-plot-data/).
 
 [VG_Plot_Data](VG_Plot_Data.csv) - Cleaned table of plot data for Västra Götaland (VG) with mean height (MeanHeight) and coordinates (Easting, Northing) from the master file, and columns added for total biomass (Dw_All_Mg), dominant tree type (Class), and a unique identifier (UniqueID).
 
 [VG_Plots_Shapefile](VG_Plots.shp) - Point shapefile of plot locations in VG.
 
-[VG_Plots_Buffer](VG_Plots_50m_Buffer.shp) - Shapefile of 50m buffer zones arounf plot locations to clip rasters to in GEE.
+[VG_Plots_Buffer](VG_Plots_50m_Buffer.shp) - Shapefile of 50m buffer zones around plot locations to clip rasters to in GEE.
 
 [Plot_Extract_Data+Estimated_MH](Plot_Extract_Data+Estimated_MH.csv) - Raster data and estimated mean height extracted for each plot. Used to train the Random Forest (RF) model.
 
-LiDAR data available at https://geotorget.lantmateriet.se/geodataprodukter.
+LiDAR data available at [Geotorget](https://geotorget.lantmateriet.se/geodataprodukter).
 
 
 ## Code
