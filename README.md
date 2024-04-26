@@ -2,6 +2,8 @@
 
 ## Data
 
+LiDAR data available at https://geotorget.lantmateriet.se/geodataprodukter
+
 ## Code
 
 Scripts for GEE and python that I used in my MSc project. GEE for data collection, pre-processing, and extraction. Python for training and applying the RF model
