@@ -10,6 +10,8 @@
 
 [VG_Plots_Buffer](VG_Plots_50m_Buffer.shp) - Shapefile of 50m buffer zones arounf plot locations to clip rasters to in GEE.
 
+[Plot_Extract_Data+Estimated_MH](Plot_Extract_Data+Estimated_MH.csv) - Raster data and estimated mean height extracted for each plot. Used to train the Random Forest (RF) model.
+
 LiDAR data available at https://geotorget.lantmateriet.se/geodataprodukter.
 
 
