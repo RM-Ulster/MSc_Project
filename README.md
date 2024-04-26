@@ -2,7 +2,9 @@
 
 ## Data
 
-[NFI_Data]() - Table of plot data for Västra Götaland with biomass (Dw_All_Mg), mean height (MeanHeight), dominant tree type (Class), coordinates (Easting, Northing), and a unique identifier (UniqueID)
+[NFI_Data]() - Master file, downloaded from https://www.slu.se/en/Collaborative-Centres-and-Projects/the-swedish-national-forest-inventory/listor/sample-plot-data/
+
+[VG_Plot_Data]() - Cleaned table of plot data for Västra Götaland with mean height (MeanHeight) and coordinates (Easting, Northing) from the master file, and added columns of biomass (Dw_All_Mg), dominant tree type (Class), and a unique identifier (UniqueID).
 
 LiDAR data available at https://geotorget.lantmateriet.se/geodataprodukter
 
