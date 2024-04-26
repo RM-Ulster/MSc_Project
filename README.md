@@ -1,4 +1,9 @@
-# MSc_Project
+## MSc_Project
+
+# Data
+
+# Code
+
 Scripts for GEE and python that I used in my MSc project. GEE for data collection, pre-processing, and extraction. Python for training and applying the RF model
 
 This is the order that they were used:
