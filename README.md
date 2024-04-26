@@ -3,7 +3,7 @@ Scripts for GEE and python that I used in my MSc project. GEE for data collectio
 
 This is the order that they were used:
 
-1. [Topo_Data_Prep](https://code.earthengine.google.com/85e0ef618b52c9d69e381b725532a5ac) - Script to prepare a raster of topographic data and export it to an EE asset.
+1. [Topo_Data_Prep](https://code.earthengine.google.com/7acdb906d98cd9a32054a4e1df61091e) - Script to prepare a raster of topographic data and export it to an EE asset.
 
 2. [S2_Image_Prep]
 
