@@ -4,7 +4,7 @@
 
 [Swedish_NFI_plotdata](swe_nfi_plotdata.xlsx) - Master file, downloaded from: [Swedish University of Agricultural Sciences (SLU)](https://www.slu.se/en/Collaborative-Centres-and-Projects/the-swedish-national-forest-inventory/listor/sample-plot-data/).
 
-[VG_Plot_Data](VG_Plot_Data.csv) - Cleaned table of plot data for Västra Götaland (VG) with mean height (MeanHeight) and coordinates (Easting, Northing) from the master file, and columns added for total biomass (Dw_All_Mg), dominant tree type (Class), and a unique identifier (UniqueID).
+[VG_Plot_Data](VG_Plot_Data.csv) - Cleaned table of plot data for Västra Götaland (VG) with mean height (MeanHeight) and coordinates (Easting, Northing) from the master file, and columns added for total aboveground biomass (Dw_All_Mg), dominant tree type (Class), and a unique identifier (UniqueID).
 
 [VG_Plots_Shapefile](VG_Plots.shp) - Point shapefile of plot locations in VG.
 
