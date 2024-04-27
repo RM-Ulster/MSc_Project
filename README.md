@@ -12,6 +12,8 @@
 
 [Plot_Extract_Data+Estimated_MH](Plot_Extract_Data+Estimated_MH.csv) - Raster data and estimated mean height extracted for each plot. Used to train the Random Forest (RF) model.
 
+[Global Canopy Height](https://langnico.github.io/globalcanopyheight/) - Produced by Lang et al. Data extracted through GEE.
+
 LiDAR data available at [Geotorget](https://geotorget.lantmateriet.se/geodataprodukter).
 
 
