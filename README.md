@@ -14,7 +14,7 @@
 
 [Global Canopy Height](https://langnico.github.io/globalcanopyheight/) - Produced by Lang et al. Data extracted through GEE.
 
-LiDAR data available at [Geotorget](https://geotorget.lantmateriet.se/geodataprodukter).
+LiDAR data available at [Geotorget](https://geotorget.lantmateriet.se/geodataprodukter). Processed data available as EE assets through the extraction script below
 
 
 ## Code
@@ -29,7 +29,7 @@ This is the order that they were used:
 
 3. [S1_Image_Prep](https://code.earthengine.google.com/36e5c5ca990211a2b53b49531ba31705) - Script to prepare a raster of S1 data and export it to an EE asset.
 
-4. [Extraction] - Script to stack rasters and extract values at each plot
+4. [Extraction](https://code.earthengine.google.com/593d3d9db1f61c27c7a56fc6592a77d5?noload=1) - Script to stack rasters and extract values at each plot
 
 5. [RF_training]
 
