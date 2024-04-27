@@ -10,7 +10,7 @@
 
 [VG_Plots_Buffer](VG_Plots_50m_Buffer.shp) - Shapefile of 50m buffer zones around plot locations to clip rasters to in GEE.
 
-[Plot_Extract_Data+Estimated_MH](Plot_Extract_Data+Estimated_MH.csv) - Raster data and estimated mean height extracted for each plot. Used to train the Random Forest (RF) model.
+[Plot_Extract_Data+Estimated_MH](Plot_Extract_Data+Estimated_MH.csv) - Table of raster data (scripts to prepare rasters found below) extracted for each plot footprint. Used to train the Random Forest (RF) model. Estimated mean height data also included.
 
 [Global Canopy Height](https://langnico.github.io/globalcanopyheight/) - Produced by Lang et al. Data extracted through GEE.
 
