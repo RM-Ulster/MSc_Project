@@ -12,7 +12,7 @@ Detailed information on methodology can be found in the [report]().
 
 [VG_Plots_Buffer](VG_Plots_50m_Buffer.shp) - Shapefile of 50m buffer zones around plot locations to clip rasters to in GEE to minimise storage space and processing time when preparing the training data. Will need to be removed when preparing the final images of the entire region.
 
-[Plot_Extract_Data+Estimated_MH](Plot_Extract_Data+Estimated_MH.csv) - Table of raster data (scripts to prepare rasters found below) extracted for each plot footprint. Used to train the Random Forest (RF) model. Estimated mean height data also included.
+[Plot_Extract_Data+Estimated_MH](Plot_Extract_Data+Estimated_MH.csv) - Table of raster data  extracted for each plot footprint (scripts to prepare rasters and extract data found below). Used to train the Random Forest (RF) model. Estimated mean height data also included.
 
 [Global Canopy Height](https://langnico.github.io/globalcanopyheight/) - Produced by Lang et al. Data extracted through GEE.
 
@@ -35,9 +35,11 @@ This is the order that they were used:
 
 5. [RF_training](RF_Training+Optimisation.ipynb) - Python script to optimise predictor set and hyperparamters for the RF algorithm. Set up to predict AGB, but can be used to predict MH with small changes to the script.
 
-6.  [Mean_Height_Estimation](https://code.earthengine.google.com/00e81916a63521a63046308bbbc7b3e8) - GEE script to apply the optimised rf for mean height prediction over 10 seeds and then average and export as an EE image for extraction as a predictor (Estimated_MH).
+6.  [Mean_Height_Estimation](https://code.earthengine.google.com/00e81916a63521a63046308bbbc7b3e8) - GEE script to apply the optimised rf for mean height prediction over 10 seeds and then average and export as an EE image for extraction as a predictor (Estimated_MH). This method is faster than doing it in python and uploading.
 
-9. [RF_Application](AGB_Estimation.ipynb) - Python script to apply the optimised RF to the raster of the entire region. Can be used for AGB and MH estimation.
+7. [RF_Application](AGB_Estimation.ipynb) - Python script to apply the optimised RF to the raster of the entire region. Can be used for AGB and MH mapping.
+
+8. [SD_Map+Stats](SD_Map+Stats.ipynb) - Python script to calculate and map standard deviation to represent uncertainty.
 
 
 ## Other
