@@ -1,6 +1,6 @@
 # MSc_Project
 
-Detailed information on methodology can be found in the [report](). 
+Detailed information on methodology can be found in the [report](MSc_Final_Report_30.04.24_RM_Git.pdf). 
 
 ## Data
 
